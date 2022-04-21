@@ -1,0 +1,22 @@
+<div class = "container">
+  <div class = "border"></div>
+  <div>
+    <p class ="user"><%=@user_input%></p>
+    <p class = "person">-You</p>
+  </div>
+</div>
+
+
+<div class = "container">
+<div class = "border"></div>
+  <div>
+    <p class = "coach">
+      <%=@user_answer%>
+    </p>
+    <p class = "person">-Coach</p>
+  </div>
+</div>
+
+<div class = "link">
+  <%= link_to "Ask me another question!", ask_path %>
+</div>
